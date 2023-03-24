@@ -1,7 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 from tldextract import extract
+
 from .constants import USER_AGENT
+
 
 class Scanner:
     def __init__(self, api_endpoints):
